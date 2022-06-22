@@ -8,6 +8,9 @@ Tested with Windows Server 2019 Standard and included Powershell 5.1
 You need to install VMware.VimAutomation.HorizonView module :
 <code>PS > Install-Module -Name VMware.VimAutomation.HorizonView</code>
 
+You need to download and unzip VMware.Hv.Helper module to C:\Scripts for example :
+https://github.com/vmware/PowerCLI-Example-Scripts/tree/master/Modules/VMware.Hv.Helper
+
 ## Scripts folder
 
 Mixing Powershell/PowerCLI - Called by telegraf - Generates InfluxDB line protocol
