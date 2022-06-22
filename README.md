@@ -1,6 +1,13 @@
 # horizon_telegraf_influxdb_powercli
 Using Powershell Scripts and PowerCLI to grab usage statistics from Vmware Horizon Services
 
+## Powershell Modules
+
+Tested with Windows Server 2019 Standard and included Powershell 5.1
+
+You need to install VMware.VimAutomation.HorizonView module :
+<code>PS > Install-Module -Name VMware.VimAutomation.HorizonView</code>
+
 In Scripts folder :
 Mixing Powershell/PowerCLI - Called by telegraf - Generates InfluxDB line protocol
 
