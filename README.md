@@ -25,6 +25,7 @@ Mixing Powershell/PowerCLI - Called by telegraf - Generates InfluxDB line protoc
 ## Grafana folder 
 
 You can find json exported dashboards. Might need to adapt our "autogen" influxDB retention policy name and measurements names !
+Tested with Grafana 7
 
 ## Telegraf folder
 
