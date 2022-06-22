@@ -8,7 +8,8 @@ Tested with Windows Server 2019 Standard and included Powershell 5.1
 You need to install VMware.VimAutomation.HorizonView module :
 <code>PS > Install-Module -Name VMware.VimAutomation.HorizonView</code>
 
-In Scripts folder :
+## Scripts folder
+
 Mixing Powershell/PowerCLI - Called by telegraf - Generates InfluxDB line protocol
 
 - stats_Pools : For each Horizon Pool, get number of machines/sessions/maxMachines (+ global sums)
@@ -18,6 +19,7 @@ Mixing Powershell/PowerCLI - Called by telegraf - Generates InfluxDB line protoc
 - stats_Inventory : For each Horizon Pool, get Pool names, Golden VM name, snapshot and ActiveDirectory OU Path
 - stats_GPU : For each ESXi server in the vCenter, get Memory/GPU Usage and temperature
 
-In Grafana folder :
+## Grafana folder 
+
 You can find json exported dashboards
 
