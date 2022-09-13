@@ -21,6 +21,8 @@ Mixing Powershell/PowerCLI - Called by telegraf - Generates InfluxDB line protoc
 - stats_ESXI : For each ESXi server in the vCenter, get CPU/RAM Usage, Connection Status and vSAN statistics.
 - stats_Inventory : For each Horizon Pool, get Pool names, Golden VM name, snapshot and ActiveDirectory OU Path
 - stats_GPU : For each ESXi server in the vCenter, get Memory/GPU Usage and temperature
+- disable_Pools : A script to run at night to disable InstantClone Pools
+- enable_Pools : A script to run in the morning to enable InstantClone Pools
 
 ## Grafana folder 
 
